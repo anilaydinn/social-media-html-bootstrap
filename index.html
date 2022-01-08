@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/profile.css" />
+
+    <title>Socium</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <a class="navbar-brand" style="color: #17a2b8;" href="#">Socium</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+                <div class="d-flex my-2 my-lg-0">
+                    <a href="login.html">
+                        <button class="btn btn-info mr-2">
+                            Login
+                        </button>
+                    </a>
+                    <a href="register.html">
+                        <button class="btn btn-info">
+                            Register
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="row justify-content-center">
+            <div class="col-md-6 grid-margin">
+                <form role="form" class="post-to-timeline mb-3">
+                    <textarea class="form-control" style="height: 70px;margin-bottom:10px;"
+                        placeholder="Whats on your mind..."></textarea>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a class="btn btn-sm text-white btn-info">Image</i></a>
+                        </div>
+                        <div class="col-sm-6 text-right"><button type="submit" class="btn btn-info">Post</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="card rounded">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img class="img-xs rounded-circle"
+                                    src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" />
+                                <div class="ml-2">
+                                    <p>Mike Popescu</p>
+                                    <p class="tx-11 text-muted">1 min ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3 tx-14">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Accusamus minima delectus nemo unde quae recusandae
+                            assumenda.
+                        </p>
+                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" />
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex post-actions">
+                            <a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-heart icon-md">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                                <p class="d-none d-md-block ml-2">Like</p>
+                            </a>
+                            <a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-message-square icon-md">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                <p class="d-none d-md-block ml-2">Comment</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form role="form" class="post-to-timeline mb-3">
+                                <textarea class="form-control" style="height: 70px;margin-bottom:10px;"
+                                    placeholder="Whats on your mind..."></textarea>
+                                <div class="row justify-content-end mr-5">
+                                    <div class="col-sm-1 text-right"><button type="submit"
+                                            class="btn btn-info">Post</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card rounded">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img class="img-xs rounded-circle"
+                                    src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" />
+                                <div class="ml-2">
+                                    <p>Mike Popescu</p>
+                                    <p class="tx-11 text-muted">5 min ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3 tx-14">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <img class="img-fluid" src="../../../assets/images/sample2.jpg" alt="" />
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex post-actions">
+                            <a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-heart icon-md">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                                <p class="d-none d-md-block ml-2">Like</p>
+                            </a>
+                            <a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-message-square icon-md">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                <p class="d-none d-md-block ml-2">Comment</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form role="form" class="post-to-timeline mb-3">
+                                <textarea class="form-control" style="height: 70px;margin-bottom:10px;"
+                                    placeholder="Whats on your mind..."></textarea>
+                                <div class="row justify-content-end mr-5">
+                                    <div class="col-sm-1 text-right"><button type="submit"
+                                            class="btn btn-info">Post</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
