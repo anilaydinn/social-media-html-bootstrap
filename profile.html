@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="./css/profile.css" />
 
-  <title>Socium</title>
+  <title>Socium | Profile</title>
 </head>
 
 <body>
-  <div class="container">
+  <div class="container mb-5">
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-      <a class="navbar-brand" style="color: #17a2b8;" href="#">Socium</a>
+      <a class="navbar-brand" style="color: #17a2b8;" href="index.html">Socium</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,15 +30,21 @@
           <li class="nav-item active">
             <a class="nav-link" href="profile.html">Profile</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
         <div class="d-flex my-2 my-lg-0">
           <a href="login.html">
-            <button class="btn btn-success mr-2" style="background-color: #17a2b8; border-color: #17a2b8">
+            <button class="btn btn-info mr-2">
               Login
             </button>
           </a>
           <a href="register.html">
-            <button class="btn btn-success" style="background-color: #17a2b8; border-color: #17a2b8">
+            <button class="btn btn-info">
               Register
             </button>
           </a>
@@ -48,7 +52,7 @@
       </div>
     </nav>
   </div>
-  <div class="container">
+  <div class="container mb-5">
     <div class="profile-page tx-13">
       <div class="row">
         <div class="col-12 grid-margin">
@@ -278,6 +282,17 @@
                     </a>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <form role="form" class="post-to-timeline mb-3">
+                      <textarea class="form-control" style="height: 70px;margin-bottom:10px;"
+                        placeholder="Whats on your mind..."></textarea>
+                      <div class="row justify-content-end mr-1">
+                        <button type="submit" class="btn btn-info">Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-md-12">
@@ -371,6 +386,17 @@
                       </svg>
                       <p class="d-none d-md-block ml-2">Comment</p>
                     </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <form role="form" class="post-to-timeline mb-3">
+                      <textarea class="form-control" style="height: 70px;margin-bottom:10px;"
+                        placeholder="Whats on your mind..."></textarea>
+                      <div class="row justify-content-end mr-1">
+                        <button type="submit" class="btn btn-info">Comment</button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -516,7 +542,12 @@
       </div>
     </div>
   </div>
-
+  <footer>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://github.com/anilaydinn" target="_blank">Anıl Aydın</a>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
